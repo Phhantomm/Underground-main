@@ -5,7 +5,10 @@ import android.view.View
 import android.widget.ImageButton
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.viewpager2.widget.ViewPager2
 import com.example.underground.R
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
 class AboutUs:Fragment(R.layout.aboutus) {
     private lateinit var imageButton: ImageButton

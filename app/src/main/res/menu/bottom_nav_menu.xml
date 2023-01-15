@@ -5,7 +5,7 @@
         android:icon="@drawable/ic_baseline_add_home_24"
         android:title="Home"/>
     <item
-        android:id="@+id/aboutUs"
+        android:id="@+id/randomnecessity"
         android:icon="@drawable/ic_baseline_tag_faces_24"
         android:title="About Us"/>
 </menu>

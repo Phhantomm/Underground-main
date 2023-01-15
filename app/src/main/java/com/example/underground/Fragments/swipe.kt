@@ -12,9 +12,9 @@ class swipe(fragmentManager:FragmentManager, lifecycle: Lifecycle):FragmentState
 
     override fun createFragment(position: Int): Fragment {
         when (position){
-            0 -> return Home()
-            1 -> return AboutUs()
-            else -> return Home()
+            0 -> return AboutUs()
+            1 -> return testing()
+            else -> return AboutUs()
         }
     }
 }
